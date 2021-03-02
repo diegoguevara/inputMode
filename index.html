@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML inputmode attribute example</title>
+    
+    <style>
+        /* demo styles */
+        body { 
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.container { 
+            width: 100%; 
+            max-width: 500px; 
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-size: 16px;
+            padding-top: 32px;
+        }
+        input {
+            width: 100%;
+            font-size: 16px;
+            padding: 3px
+        }
+        p.footer {
+            margin-top: 42px;
+            text-align: center;
+        }
+        /* /demo styles */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>The <strong>inputmode</strong> global attribute is an enumerated attribute that hints at the type of data that might be entered by the user while editing the element or its contents. It can have the following values:</p>
+        
+        <label>
+            <code>
+                &lt;input inputmode="none"&gt;
+            </code>
+            <input inputmode="none">
+        </label>
+
+        <label>
+            <code>
+                &lt;input inputmode="text"&gt;
+            </code>
+            <input inputmode="text">
+        </label>
+
+        <label>
+            <code>
+                &lt;input inputmode="decimal"&gt;
+            </code>
+            <input inputmode="decimal">
+        </label>
+
+        <label>
+            <code>
+                &lt;input inputmode="numeric"&gt;
+            </code>
+            <input inputmode="numeric">
+        </label>
+
+        <label>
+            <code>
+                &lt;input inputmode="tel"&gt;
+            </code>
+            <input inputmode="tel">
+        </label>
+
+        <label>
+            <code>
+                &lt;input inputmode="search"&gt;
+            </code>
+            <input inputmode="search">
+        </label>
+
+        <label>
+            <code>
+                &lt;input inputmode="email"&gt;
+            </code>
+            <input inputmode="email">
+        </label>
+
+        <label>
+            <code>
+                &lt;input inputmode="url"&gt;
+            </code>
+            <input inputmode="url">
+        </label>
+
+        <p class="footer">
+            More info about browser support: <a href="https://caniuse.com/input-inputmode">Can I Use</a>
+        </p>
+    </div>
+
+    
+</body>
+
+</html>
